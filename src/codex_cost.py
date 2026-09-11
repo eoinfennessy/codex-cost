@@ -40,7 +40,7 @@ import tempfile
 # USD per 1M tokens: (uncached input, cached input, output).
 # VERIFY against https://platform.openai.com/docs/pricing before trusting.
 RATES = {
-    "gpt-5.6-sol":   (5.00, 0.50, 30.00),
+    "gpt-5.6-sol":   (4.00, 0.40, 20.00),
     "gpt-5.6-terra": (2.00, 0.20, 12.00),
     "gpt-5.6-luna":  (0.20, 0.02,  1.20),
     "gpt-5.5":       (1.25, 0.125, 10.00),
